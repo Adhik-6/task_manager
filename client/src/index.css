@@ -1,0 +1,234 @@
+
+* {
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  min-height: 100vh;
+}
+
+a {
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input:focus{
+  outline: none;
+}
+
+.main{
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 3.5em;
+  justify-content: space-evenly;
+}
+
+.main > form {
+  background-color: aliceblue;
+  color: rgba(33, 33, 33, 0.849);
+  height: 11.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 2em;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(255, 254, 254, 0.651);
+}
+.main > form > h1{
+  font-size: 1.8em;
+  margin-bottom: 0.8em;
+}
+.main > form > div{
+  display: flex;
+  width: 100%;
+}
+.smsg{
+  font-size: 0.9em;
+  margin-top: 1.2em;
+  font-weight: 800;
+  text-align: center;
+}
+.green{
+  color: green;
+}
+.red{
+  color: rgb(220, 43, 43);
+}
+.main > form input{
+  background-color: rgba(0, 0, 0, 0.187);
+  border: none;
+  padding: 0.5em;
+  font-size: 1.1em;
+  border-radius: 8px 0 0 8px;
+  color: black;
+  flex: 1;
+  border: 1.5px solid transparent;
+}
+.main > form input:focus{
+  border: 1.5px solid rgb(181, 36, 234);
+}
+.main > form button{
+  font-size: 1.1em;
+  background-color: rgb(181, 36, 234);
+  border-radius: 0 8px 8px 0;
+  padding-inline: 0.4em;
+}
+
+.strike_through{
+  text-decoration: line-through;
+}
+
+.tasks{
+  color: rgba(33, 33, 33, 0.849);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.task input[type="checkbox"]{
+  visibility: hidden;
+}
+
+.checkbox_main_svg{
+  position: absolute;
+  top: 0;
+  left: -5.5px;
+}
+
+.task{
+  background-color: aliceblue;
+  border-radius: 5px;
+  display: flex;
+  font-weight: 500;
+  padding-inline: 2em;
+  height: 3em;
+  align-items: center;
+  padding-block: 0.4em ;
+  justify-content: space-between;
+  transition: all 0.4s;
+}
+.task:hover{
+  box-shadow: 0px 6px 8px rgba(181, 36, 234, 0.85);
+  transform: scale(1.01);
+}
+.task > div{
+  display: flex;
+  gap: 1em;
+  position: relative;
+}
+.tsk_btn{
+  cursor: pointer;
+}
+
+.edit{
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content:space-evenly;
+}
+
+.edit h1{
+  text-align: center;
+  margin-bottom: 0.4em;
+}
+
+.edit > form {
+  background-color: aliceblue;
+  color: rgba(33, 33, 33, 0.849);
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1.5em 2em;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(255, 254, 254, 0.651);
+  min-height: 335px;
+}
+/* .edit_form{
+} */
+
+.edit form > div {
+  width: 100%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.edit form > div > input,
+.edit form > div > label{
+  flex: 1;
+}
+
+.edit form > div > input{
+  background-color: rgba(0, 0, 0, 0.187);
+  border: none;
+  padding: 0.5em;
+  border-radius: 4px;
+  color: black;
+  font-size: 0.9em;
+}
+
+.edit form > button {
+  font-size: 1.1em;
+  background-color: rgb(181, 36, 234);
+  border-radius: 5px;
+  padding: 0.3em;
+  margin-top: 0.4em;
+}
+
+.edit input[type="checkbox"] {
+  margin-right: 144px;
+  visibility: hidden;
+}
+
+.checkbox_div{
+  position: relative;
+}
+.checkbox_svg{
+  position: absolute;
+  right: 100;
+  transform: translateX(123px);
+}
+
+.edit > div{
+  display: flex;
+  justify-content: center;
+}
+.edit > div button {
+  font-size: 1em;
+  background-color: rgb(21, 120, 232);
+  border-radius: 5px;
+  padding: 0.5em 0.8em;
+}

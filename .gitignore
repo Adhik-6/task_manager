@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+server/node_modules/
+
+# OS specific files
+/.DS_Store
+.DS_Store?
+
+# Log files
+logs/
+
+# Build output
+client/dist/
+server/dist/
+
+server/.env
+
+BEST_README.md
+notes.md
