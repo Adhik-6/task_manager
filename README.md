@@ -1,6 +1,6 @@
 # Task Manager 📝
 
-A simple and interactive Task Manager web application built with the **MERN stack** (MongoDB, Express, React, Node.js). I've implemented the basic CRUD operations to manage tasks effectively. This project serves as a great starting point for understanding full-stack development and building RESTful APIs.
+A simple and interactive Task Manager web application built with the **MERN stack** (MongoDB, Express, React, Node.js). I've implemented the basic CRUD operations to manage tasks effectively. This project serves as a great starting point for understanding full-stack development and building RESTful APIs. As this is my first MERN Stack project, the code will be full of comments.
 
 ---
 
