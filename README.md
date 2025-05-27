@@ -114,4 +114,4 @@ This will concurrently start both client and server if you have `concurrently` i
 
 ## 📄 License
 
-MIT License
+No License
